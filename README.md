@@ -1,3 +1,37 @@
+# 🧑‍💻 Catálogo Avançado de Usuários
+
+Aplicação web desenvolvida com **React** e **Vite**, que consome a API pública [JSONPlaceholder](https://jsonplaceholder.typicode.com) para listar usuários, exibir detalhes e posts associados.
+
+---
+
+## 🚀 Funcionalidades
+
+- Listagem de usuários com **nome**, **e-mail** e **cidade**  
+- Tela de **detalhes** com informações completas e posts  
+- **Busca combinada** (nome, e-mail ou cidade)  
+- **Filtro por cidade**  
+- **Paginação** (5 usuários por página)  
+- **Contagem de posts** por usuário  
+- **Loading animado** durante o carregamento  
+- **Persistência de filtros** no `localStorage`  
+- Página **Sobre**, com informações do projeto  
+
+---
+
+## 🧱 Tecnologias utilizadas
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/) *(opcional)*
+- [Fetch API](https://developer.mozilla.org/docs/Web/API/Fetch_API)
+
+---
+
+### 🔧 Pré-requisitos
+- Node.js instalado (versão 18 ou superior)
+- npm (vem junto com o Node)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
